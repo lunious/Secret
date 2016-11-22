@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etPhoneNum" type="id" />
+    <item name="btnGetCode" type="id" />
+    <item name="etCode" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="tvMessage" type="id" />
+    <item name="etComment" type="id" />
+    <item name="btnSendComment" type="id" />
+</resources>
