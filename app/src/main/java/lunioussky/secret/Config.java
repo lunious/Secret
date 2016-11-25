@@ -17,17 +17,20 @@ public class Config {
     public static final String KEY_STATUS ="status";
     public static final String KEY_PHONE_NUM ="phone";
     public static final String KEY_PHONE_MD5 ="phone_md5";
-    public static final String KEY_CODE ="code";
+    public static final String KEY_CONTACTS = "contacts";
 
+    public static final String KEY_CODE ="code";
     public static final int RESULT_STATUS_SUCCESS = 1;
     public static final int RESULT_STATUS_FAIL = 0;
+
     public static final int RESULT_STATUS_INVALID_TOKEN = 2;
-
     public static final String APP_ID ="lunioussky.secret";
-    public static final String CHARSET = "utf-8";
 
+    public static final String CHARSET = "utf-8";
     public static final String ACTION_GET_CODE = "send_pass";
+    public static final String ACTION_UPLOAD_CONTACTS = "upload_contacts";
     public static final String ACTION_LOGIN = "Login";
+    public static final String ACTION_TIMELINE = "timeline";
 
 
     public static String getCachedToken(Context context){
